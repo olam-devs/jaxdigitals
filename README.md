@@ -22,8 +22,7 @@ grep -n "todo\|TODO_" index.html privacy.html
 
 | Blank | Where |
 |---|---|
-| Registered business name (exactly as on the BRELA certificate) | About section, privacy policy |
-| BRELA registration number | About section |
+| BRELA registration number of Olam Technologies (the company Meta is verifying; JAXDIGITALS is its brand) | About section, privacy policy |
 | WhatsApp number (`TODO_WHATSAPP_NUMBER` in the links: digits only, e.g. `2557XXXXXXXX`) | Hero button, contact, privacy |
 | Phone number (`TODO_PHONE_NUMBER`: `+2557XXXXXXXX`) | Contact, privacy |
 | Email (`TODO_EMAIL`) | Contact, privacy |
