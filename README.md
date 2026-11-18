@@ -12,24 +12,14 @@ and the **WhatsApp display name** review, and so the WhatsApp app has the
 
 Plain HTML and CSS: no build step, no tracking, no cookies.
 
-## Before publishing: fill in the business details
+## Business details on the site
 
-Every blank is highlighted in yellow on the page and marked in the code. Find them with:
-
-```bash
-grep -n "todo\|TODO_" index.html privacy.html
-```
-
-| Blank | Where |
-|---|---|
-| BRELA registration number of Olam Technologies (the company Meta is verifying; JAXDIGITALS is its brand) | About section, privacy policy |
-| WhatsApp number (`TODO_WHATSAPP_NUMBER` in the links: digits only, e.g. `2557XXXXXXXX`) | Hero button, contact, privacy |
-| Phone number (`TODO_PHONE_NUMBER`: `+2557XXXXXXXX`) | Contact, privacy |
-| Email (`TODO_EMAIL`) | Contact, privacy |
-| Physical address and opening hours | Contact, privacy |
-| How long guest data is kept (now 90 days after the event) | Privacy policy, "How long we keep it" |
-
-The name, address and phone must match the business documents Meta checks.
+JAXDIGITALS is a brand of **OLAM TECHNOLOGIES**, the business name registered with
+BRELA and submitted to Meta for verification. The phone, email and address on both
+pages come from that BRELA registration, so they match what Meta checks; the house
+number is left off the public page on purpose. Guest data is kept 90 days after an
+event (privacy policy, "How long we keep it"). If any of these change, update both
+`index.html` and `privacy.html`, including the `ld+json` block in `index.html`.
 
 ## Publish on GitHub Pages
 
