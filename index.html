@@ -1,12 +1,12 @@
 <!doctype html>
-<html lang="en">
+<html lang="sw">
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>JAXDIGITALS · Digital invitation cards on WhatsApp and SMS</title>
+    <title>JAXDIGITALS · Kadi za mwaliko za kidigitali · Digital invitation cards</title>
     <meta
       name="description"
-      content="JAXDIGITALS designs digital invitation cards for weddings, send-offs, kitchen parties and events in Tanzania, sends a personal card to every guest on WhatsApp and SMS, collects replies and checks guests in with a QR code."
+      content="JAXDIGITALS inabuni kadi za mwaliko za kidigitali za harusi, send-off, kitchen party na matukio yote Tanzania, inamtumia kila mgeni kadi yake kwa WhatsApp na SMS, inakusanya majibu na kuwapokea wageni getini kwa QR-Code."
     />
     <link rel="canonical" href="https://olam-devs.github.io/jaxdigitals/" />
     <meta name="theme-color" content="#0e0a14" />
@@ -14,8 +14,8 @@
     <link rel="apple-touch-icon" href="assets/apple-touch-icon.png" />
     <meta property="og:type" content="website" />
     <meta property="og:site_name" content="JAXDIGITALS" />
-    <meta property="og:title" content="JAXDIGITALS · Digital invitation cards" />
-    <meta property="og:description" content="Beautiful invitation cards, delivered to every guest on WhatsApp and SMS, with replies and QR check-in at the gate." />
+    <meta property="og:title" content="JAXDIGITALS · Kadi za mwaliko za kidigitali" />
+    <meta property="og:description" content="Kadi maridadi za mwaliko kwa kila mgeni kwa WhatsApp na SMS, majibu papo hapo na QR-Code getini." />
     <meta property="og:url" content="https://olam-devs.github.io/jaxdigitals/" />
     <meta property="og:image" content="https://olam-devs.github.io/jaxdigitals/assets/og-image.png" />
     <meta property="og:image:width" content="1200" />
@@ -23,7 +23,7 @@
     <meta name="twitter:card" content="summary_large_image" />
     <link rel="preload" href="assets/fonts/inter-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin />
     <link rel="preload" href="assets/fonts/cormorant-garamond-latin-600-normal.woff2" as="font" type="font/woff2" crossorigin />
-    <link rel="stylesheet" href="assets/style.css?v=3" />
+    <link rel="stylesheet" href="assets/style.css?v=4" />
     <script type="application/ld+json">
       {
         "@context": "https://schema.org",
@@ -31,17 +31,18 @@
         "name": "JAXDIGITALS",
         "legalName": "OLAM TECHNOLOGIES",
         "identifier": "BRELA 585622",
-        "description": "Digital invitation cards delivered on WhatsApp and SMS, with RSVP tracking and QR check-in.",
+        "description": "Digital invitation cards delivered on WhatsApp and SMS, with RSVP tracking, contribution reminders and QR check-in.",
         "url": "https://olam-devs.github.io/jaxdigitals/",
         "logo": "https://olam-devs.github.io/jaxdigitals/assets/logo.svg",
-        "address": { "@type": "PostalAddress", "streetAddress": "Kaitaba Street, Kipala-Kongowe, Mwandege", "addressLocality": "Mkuranga", "addressRegion": "Pwani", "postalCode": "61524", "addressCountry": "TZ" },
+        "address": { "@type": "PostalAddress", "addressLocality": "Ubungo", "addressRegion": "Dar es Salaam", "addressCountry": "TZ" },
+        "areaServed": "TZ",
         "telephone": "+255627404843",
         "email": "rwegasirajackson11@gmail.com"
       }
     </script>
   </head>
   <body>
-    <a class="skip" href="#main">Skip to content</a>
+    <a class="skip" href="#main" data-en="Skip to content">Ruka hadi maudhui</a>
 
     <header class="hero">
       <svg class="hero-lines" viewBox="0 0 900 600" fill="none" aria-hidden="true">
@@ -53,36 +54,52 @@
       </svg>
 
       <div class="wrap topbar">
-        <a href="./" aria-label="JAXDIGITALS home"><img class="logo" src="assets/logo-white.svg" alt="JAXDIGITALS" width="104" height="58" /></a>
+        <a href="./" aria-label="JAXDIGITALS"><img class="logo" src="assets/logo-white.svg" alt="JAXDIGITALS" width="104" height="58" /></a>
         <nav class="nav" aria-label="Main">
-          <a href="#services">Services</a>
-          <a href="#how">How it works</a>
-          <a href="#about">About</a>
-          <a class="btn btn-ghost" href="#contact">Contact us</a>
+          <a href="#services" data-en="Services">Huduma</a>
+          <a href="#pricing" data-en="Prices">Bei</a>
+          <a href="#how" data-en="How it works">Jinsi inavyofanya kazi</a>
+          <div class="lang" role="group" aria-label="Lugha · Language">
+            <button type="button" data-lang="sw" aria-pressed="true" title="Kiswahili">SW</button>
+            <button type="button" data-lang="en" aria-pressed="false" title="English">EN</button>
+          </div>
+          <a class="btn btn-ghost" href="#contact" data-en="Contact us">Wasiliana nasi</a>
         </nav>
       </div>
 
       <div class="wrap hero-body" id="main">
         <div>
-          <p class="eyebrow">Digital invitations · Kadi za kidigitali</p>
-          <h1>Every guest, <em>beautifully</em> invited.</h1>
-          <p class="lead">
-            We design your invitation card, send a personal copy to every guest on WhatsApp and SMS, collect their replies, and check them in
-            at the gate with a QR code.
+          <p class="eyebrow" data-en="Digital invitation cards">Kadi za mwaliko za kidigitali</p>
+          <h1 data-en="Every guest, &lt;em&gt;beautifully&lt;/em&gt; invited.">Kila mgeni, amealikwa <em>kwa heshima</em>.</h1>
+          <p
+            class="lead"
+            data-en="We design your invitation card, send every guest their own card on WhatsApp and SMS, collect their replies, and welcome them at the gate with a QR code."
+          >
+            Tunabuni kadi yako ya mwaliko, tunamtumia kila mgeni kadi yake kwa WhatsApp na SMS, tunakusanya majibu yao, na siku ya tukio
+            tunawapokea getini kwa QR-Code.
           </p>
           <div class="hero-actions">
             <a class="btn btn-primary" href="https://wa.me/255627404843">
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
                 <path d="M21 11.5a8.4 8.4 0 0 1-12.4 7.4L3 21l2.1-5.4A8.4 8.4 0 1 1 21 11.5z" />
               </svg>
-              Chat with us on WhatsApp
+              <span data-en="Chat with us on WhatsApp">Ongea nasi WhatsApp</span>
             </a>
-            <a class="btn btn-ghost" href="#how">See how it works</a>
+            <a class="btn btn-ghost" href="#pricing" data-en="See our prices">Angalia bei</a>
           </div>
-          <p class="hero-note">Weddings · Send-offs · Kitchen parties · Birthdays · Graduations · Company events</p>
+          <p class="hero-note" data-en="Weddings · Send-offs · Kitchen parties · Birthdays · Graduations · Company events">
+            Harusi · Send-off · Kitchen party · Birthday · Mahafali · Matukio ya kampuni
+          </p>
+          <p class="hero-place">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M20 10c0 6-8 12-8 12S4 16 4 10a8 8 0 0 1 16 0z" />
+              <circle cx="12" cy="10" r="3" />
+            </svg>
+            <span data-en="Ubungo, Dar es Salaam · Serving all of Tanzania">Ubungo, Dar es Salaam · Tunahudumia Tanzania nzima</span>
+          </p>
         </div>
 
-        <div class="phone" role="img" aria-label="An example invitation as a guest sees it on WhatsApp, with two reply buttons">
+        <div class="phone" role="img" aria-label="Mfano wa kadi ya mwaliko kwenye WhatsApp, yenye vitufe viwili vya kujibu">
           <div class="screen">
             <div class="chat-head">
               <img src="assets/icon.svg" alt="" width="34" height="34" />
@@ -125,9 +142,14 @@
       <section id="services">
         <div class="wrap">
           <div class="section-head">
-            <p class="eyebrow">What we do</p>
-            <h2>Invitations, replies and the gate, all in one place</h2>
-            <p>From the first design to the last guest through the door, JAXDIGITALS takes care of your guest list so your family can enjoy the day.</p>
+            <p class="eyebrow" data-en="What we do">Tunachofanya</p>
+            <h2 data-en="Invitations, replies and the gate, all in one place">Mialiko, majibu na geti, vyote mahali pamoja</h2>
+            <p
+              data-en="From the first design to the last guest through the door, JAXDIGITALS takes care of your guest list so your family can enjoy the day."
+            >
+              Kuanzia muundo wa kadi hadi mgeni wa mwisho kuingia, JAXDIGITALS inashughulikia orodha yako ya wageni ili familia yako ifurahie siku
+              yenu.
+            </p>
           </div>
           <div class="grid">
             <article class="tile">
@@ -139,8 +161,13 @@
                   <circle cx="16.5" cy="10.5" r="1" />
                 </svg>
               </div>
-              <h3>Card design</h3>
-              <p>An elegant card for your wedding, send-off, kitchen party, birthday or company event, in Swahili or English, with your photo and colours.</p>
+              <h3 data-en="Card design">Ubunifu wa kadi</h3>
+              <p
+                data-en="An elegant card for your wedding, send-off, kitchen party, birthday or company event, in Swahili or English, with your photo and colours."
+              >
+                Kadi maridadi ya harusi, send-off, kitchen party, birthday au tukio la kampuni, kwa Kiswahili au Kiingereza, yenye picha na rangi
+                zako.
+              </p>
             </article>
             <article class="tile">
               <div class="ico">
@@ -150,8 +177,10 @@
                   <path d="M15 9h3M15 13h3M6 16c.6-1.5 1.7-2.2 3-2.2s2.4.7 3 2.2" />
                 </svg>
               </div>
-              <h3>A personal card for every guest</h3>
-              <p>Each card carries the guest's name and title, the card type (single or double), a card number and its own QR code.</p>
+              <h3 data-en="A personal card for every guest">Kadi binafsi kwa kila mgeni</h3>
+              <p data-en="Each card carries the guest's name and title, the card type (SINGLE or DOUBLE), a card number and its own QR code.">
+                Kila kadi ina jina na cheo cha mgeni, aina ya kadi (SINGLE au DOUBLE), namba ya kadi na QR-Code yake.
+              </p>
             </article>
             <article class="tile">
               <div class="ico">
@@ -160,8 +189,10 @@
                   <path d="M22 2 15 22l-4-9-9-4 20-7z" />
                 </svg>
               </div>
-              <h3>Sent on WhatsApp and SMS</h3>
-              <p>Guests receive their card on WhatsApp with two reply buttons. Guests without WhatsApp get an SMS, so nobody is left out.</p>
+              <h3 data-en="On WhatsApp and SMS">Kwa WhatsApp na SMS</h3>
+              <p data-en="Every guest receives their card on WhatsApp, with two reply buttons, and by SMS too. Nobody is left out.">
+                Kila mgeni anapokea kadi yake kwa WhatsApp, yenye vitufe viwili vya kujibu, na kwa SMS pia. Hakuna anayeachwa.
+              </p>
             </article>
             <article class="tile">
               <div class="ico">
@@ -170,8 +201,13 @@
                   <path d="m8 12 3 3 5-6" />
                 </svg>
               </div>
-              <h3>Replies and reminders</h3>
-              <p>See who is coming as replies arrive, and send a friendly reminder before the day to guests who said yes or haven't answered.</p>
+              <h3 data-en="Replies, reminders and thanks">Majibu, ukumbusho na shukrani</h3>
+              <p
+                data-en="See who is coming as replies arrive. We remind guests before the day, and afterwards send a thank-you with a link to the event photos."
+              >
+                Mnaona nani anakuja kadri majibu yanavyoingia. Tunawakumbusha wageni kabla ya siku, na baadaye tunatuma shukrani pamoja na link ya
+                picha za tukio.
+              </p>
             </article>
             <article class="tile">
               <div class="ico">
@@ -181,8 +217,12 @@
                   <path d="M22 21v-2a4 4 0 0 0-3-3.9M16 3.1a4 4 0 0 1 0 7.8" />
                 </svg>
               </div>
-              <h3>A live page for the committee</h3>
-              <p>The family and committee follow replies and arrivals on their own phones, without passing spreadsheets around.</p>
+              <h3 data-en="Michango, made easy">Michango bila usumbufu</h3>
+              <p
+                data-en="Pledges, payments and balances in one list. The treasurer records payments, and every contributor gets reminders with their own amounts."
+              >
+                Ahadi, malipo na baki kwenye orodha moja. Mweka hazina anaweka malipo, na kila mchangiaji anapata ukumbusho wenye kiasi chake.
+              </p>
             </article>
             <article class="tile">
               <div class="ico">
@@ -191,8 +231,12 @@
                   <rect x="7.5" y="7.5" width="9" height="9" rx="1" />
                 </svg>
               </div>
-              <h3>QR check-in at the gate</h3>
-              <p>Ushers scan each card with a phone. A card lets in the right number of people, only once, so the gate stays calm and fair.</p>
+              <h3 data-en="QR check-in at the gate">QR-Code getini</h3>
+              <p
+                data-en="Each card is scanned with a phone and lets in the right number of people, only once, while the committee sees arrivals live."
+              >
+                Kila kadi inascaniwa kwa simu na inaingiza idadi sahihi ya watu, mara moja tu, huku kamati ikiona waliofika moja kwa moja.
+              </p>
             </article>
           </div>
         </div>
@@ -201,49 +245,170 @@
       <section class="how" id="how">
         <div class="wrap">
           <div class="section-head">
-            <p class="eyebrow">How it works</p>
-            <h2>Four simple steps</h2>
+            <p class="eyebrow" data-en="How it works">Jinsi inavyofanya kazi</p>
+            <h2 data-en="Four simple steps">Hatua nne rahisi</h2>
           </div>
           <ol class="steps">
             <li>
-              <h3>Tell us about your event</h3>
-              <p>Share the date, venue and your guest list. An Excel sheet or a list of names and phone numbers is fine.</p>
+              <h3 data-en="Tell us about your event">Tuambie kuhusu tukio lako</h3>
+              <p data-en="Share the date, venue and your guest list. An Excel sheet or a list of names and phone numbers is fine.">
+                Tutumie tarehe, ukumbi na orodha ya wageni. Excel au orodha ya majina na namba za simu inatosha.
+              </p>
             </li>
             <li>
-              <h3>Approve your card</h3>
-              <p>We design the card with your names, photo and colours, and adjust it until you are happy.</p>
+              <h3 data-en="Approve your card">Idhinisha kadi yako</h3>
+              <p data-en="We design the card with your names, photo and colours, and adjust it until you are happy.">
+                Tunabuni kadi yenye majina, picha na rangi zako, na tunairekebisha hadi uridhike.
+              </p>
             </li>
             <li>
-              <h3>We send the invitations</h3>
-              <p>Every guest gets their own card on WhatsApp or SMS. You watch the replies come in.</p>
+              <h3 data-en="We send the invitations">Tunatuma mialiko</h3>
+              <p data-en="Every guest gets their own card on WhatsApp and SMS, and you watch the replies come in.">
+                Kila mgeni anapokea kadi yake kwa WhatsApp na SMS, nanyi mnaona majibu yakiingia.
+              </p>
             </li>
             <li>
-              <h3>Welcome guests on the day</h3>
-              <p>Ushers scan the QR codes at the gate, and the committee sees arrivals live.</p>
+              <h3 data-en="Welcome guests on the day">Karibisha wageni siku ya tukio</h3>
+              <p data-en="The QR codes are scanned at the gate, and the committee sees arrivals live.">
+                QR-Code zinascaniwa getini, na kamati inaona waliofika moja kwa moja.
+              </p>
             </li>
           </ol>
         </div>
       </section>
 
-      <section id="about">
+      <section id="pricing">
+        <div class="wrap">
+          <div class="section-head">
+            <p class="eyebrow" data-en="Prices">Bei</p>
+            <h2 data-en="Choose the package for your event">Chagua kifurushi cha tukio lako</h2>
+            <p data-en="Prices are per invitation card. A DOUBLE card (2 people) counts as one card.">
+              Bei ni kwa kila kadi ya mwaliko. Kadi ya DOUBLE (watu 2) ni kadi moja.
+            </p>
+          </div>
+
+          <div class="plans">
+            <article class="plan">
+              <h3>Basic</h3>
+              <p class="tagline" data-en="Everything you need to invite with style.">Kila unachohitaji kualika kwa hadhi.</p>
+              <p class="price">TSh 1,500 <small data-en="per card">kwa kadi</small></p>
+              <ul class="ticks">
+                <li data-en="A digital card with the guest's name and its own QR code">Kadi ya kidigitali yenye jina la mgeni na QR-Code yake</li>
+                <li data-en="Sent to every guest on WhatsApp and SMS">Inatumwa kwa kila mgeni kwa WhatsApp na SMS</li>
+                <li data-en="Guests reply with one tap: Attending / Can't make it">Wageni wanajibu papo hapo: Nitahudhuria / Sitaweza</li>
+                <li data-en="A committee page showing who confirmed and who arrived">Ukurasa wa kamati: waliothibitisha na waliofika</li>
+                <li data-en="A map to the venue or event location">Ramani ya Ukumbi au Eneo la tukio</li>
+                <li data-en="A thank-you message after the event, with a link to share the event photos">
+                  Ujumbe wa shukrani baada ya tukio, pamoja na link ya kusambaza picha za tukio
+                </li>
+                <li
+                  data-en="Gate scanner on the day: &lt;b&gt;free from 200 cards&lt;/b&gt;. Below that, TSh 35,000, or we give you our scanning app and train you."
+                >
+                  Mtu wa kuscan getini: <b>bure kuanzia kadi 200</b>. Chini ya hapo TSh 35,000, au tunakupa app ya kuscan na kukufundisha.
+                </li>
+              </ul>
+            </article>
+
+            <article class="plan featured">
+              <span class="badge" data-en="Most popular">Inayopendwa zaidi</span>
+              <h3>Standard</h3>
+              <p class="tagline" data-en="We follow up every guest for you.">Tunamfuatilia kila mgeni kwa niaba yako.</p>
+              <p class="price">TSh 2,000 <small data-en="per card">kwa kadi</small></p>
+              <ul class="ticks">
+                <li class="base" data-en="Everything in Basic">Kila kilichopo Basic</li>
+                <li data-en="We call your guests to check their cards arrived">Tunawapigia wageni simu kuhakiki kama kadi zimefika</li>
+                <li data-en="Gate scanner on the day: &lt;b&gt;free from 150 cards&lt;/b&gt;">Mtu wa kuscan getini: <b>bure kuanzia kadi 150</b></li>
+              </ul>
+            </article>
+
+            <article class="plan">
+              <h3>Premium</h3>
+              <p class="tagline" data-en="The complete service, from the date to the contributions.">Huduma kamili, kuanzia tarehe hadi michango.</p>
+              <p class="price">TSh 2,500 <small data-en="per card">kwa kadi</small></p>
+              <ul class="ticks">
+                <li class="base" data-en="Everything in Standard">Kila kilichopo Standard</li>
+                <li data-en="A Save the Date message, or a reminder the day before the event">
+                  Ujumbe wa Save the Date, au wa kukumbusha siku moja kabla ya tukio
+                </li>
+                <li
+                  data-en="&lt;b&gt;Free&lt;/b&gt; final contribution reminders: up to twice the number of cards, on WhatsApp and SMS"
+                >
+                  Jumbe za mwisho za kukumbusha michango <b>bure</b>: hadi mara 2 ya idadi ya kadi, kwa WhatsApp na SMS
+                </li>
+              </ul>
+            </article>
+          </div>
+
+          <article class="michango">
+            <div>
+              <p class="eyebrow" data-en="A service of its own">Huduma inayojitegemea</p>
+              <h3>Michango</h3>
+              <p data-en="Start collecting contributions months before the event, even before the cards.">
+                Anza kukusanya michango hata miezi kabla ya tukio, kabla ya kadi.
+              </p>
+              <ul class="ticks">
+                <li data-en="A contributor list with each pledge, payment and balance">Orodha ya wachangiaji: ahadi, kilicholipwa na kiasi kilichobaki</li>
+                <li data-en="A private link for the treasurer to record payments">Link maalum ya mweka hazina kuweka malipo</li>
+                <li data-en="3 rounds of reminders on WhatsApp and SMS, each with the person's own amounts">
+                  Awamu 3 za jumbe za kukumbusha kwa WhatsApp na SMS, kila mtu na kiasi chake
+                </li>
+                <li data-en="Anyone who has paid in full gets no more messages">Aliyemaliza kulipa hapokei ujumbe tena</li>
+              </ul>
+            </div>
+            <div class="m-price">
+              <p class="price">TSh 700 <small data-en="per contributor">kwa mchangiaji</small></p>
+              <ul>
+                <li data-en="Up to 200 contributors, 3 rounds">Hadi wachangiaji 200, awamu 3</li>
+                <li data-en="&lt;b&gt;TSh 500&lt;/b&gt; for each contributor above 200">
+                  <b>TSh 500</b> kwa kila mchangiaji zaidi ya 200
+                </li>
+                <li data-en="Extra round: &lt;b&gt;TSh 200&lt;/b&gt; per person">Awamu ya ziada: <b>TSh 200</b> kwa mtu</li>
+              </ul>
+            </div>
+          </article>
+
+          <div class="pricing-cta">
+            <a class="btn btn-primary" href="https://wa.me/255627404843" data-en="Ask about your event">Uliza kuhusu tukio lako</a>
+            <span data-en="Tell us the date and number of guests, and we will reply with a quote.">Tuambie tarehe na idadi ya wageni, tutakujibu na bei.</span>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="alt">
         <div class="wrap about">
           <div class="about-text">
-            <p class="eyebrow">About us</p>
-            <h2 style="margin-top: 12px; font-size: clamp(32px, 4vw, 44px)">About JAXDIGITALS</h2>
-            <p style="margin-top: 18px">
-              JAXDIGITALS is a digital invitation service by <strong>Olam Technologies</strong>, a registered business in Tanzania. We help
-              families and organisations invite their guests in a modern, personal way, and run a smooth, secure entrance on the day.
+            <p class="eyebrow" data-en="About us">Kuhusu sisi</p>
+            <h2 style="margin-top: 12px; font-size: clamp(32px, 4vw, 44px)" data-en="About JAXDIGITALS">Kuhusu JAXDIGITALS</h2>
+            <p
+              style="margin-top: 18px"
+              data-en="JAXDIGITALS is a digital invitation service by &lt;strong&gt;Olam Technologies&lt;/strong&gt;, a registered business in Tanzania. We help families and organisations invite their guests in a modern, personal way, and run a smooth, secure entrance on the day."
+            >
+              JAXDIGITALS ni huduma ya kadi za mwaliko za kidigitali ya <strong>Olam Technologies</strong>, biashara iliyosajiliwa Tanzania. Tunasaidia
+              familia na taasisi kuwaalika wageni wao kwa njia ya kisasa na binafsi, na kuendesha mlango salama na tulivu siku ya tukio.
             </p>
-            <p>
-              Registered business name: <strong>OLAM TECHNOLOGIES</strong><br />BRELA registration no. <strong>585622</strong>, registered
-              30 September 2024 under the Business Names (Registration) Act
+            <p
+              data-en="Registered business name: &lt;strong&gt;OLAM TECHNOLOGIES&lt;/strong&gt;&lt;br /&gt;BRELA registration no. &lt;strong&gt;585622&lt;/strong&gt;, registered 30 September 2024 under the Business Names (Registration) Act"
+            >
+              Jina la biashara lililosajiliwa: <strong>OLAM TECHNOLOGIES</strong><br />Namba ya usajili BRELA <strong>585622</strong>, tarehe 30
+              Septemba 2024, chini ya Sheria ya Usajili wa Majina ya Biashara
+            </p>
+            <p data-en="We are based in Ubungo, Dar es Salaam, and serve events all over Tanzania.">
+              Tuko Ubungo, Dar es Salaam, na tunahudumia matukio Tanzania nzima.
             </p>
           </div>
           <ul class="promise">
-            <li>We only message guests whose numbers the event host gives us, and only about that event.</li>
-            <li>Every message says who is inviting you and why.</li>
-            <li>Guests can decline with one tap, or ask us to stop messaging them at any time.</li>
-            <li>We never sell or share guest details for advertising. Read our <a href="privacy.html">privacy policy</a>.</li>
+            <li data-en="We only message guests whose numbers the event host gives us, and only about that event.">
+              Tunatuma ujumbe kwa namba alizotupa mwenye tukio tu, na kuhusu tukio hilo tu.
+            </li>
+            <li data-en="Every message says who is inviting you and why.">Kila ujumbe unaonyesha nani anakualika na kwa nini.</li>
+            <li data-en="Guests can decline with one tap, or ask us to stop messaging them at any time.">
+              Mgeni anaweza kukataa kwa kubonyeza mara moja, au kutuomba tuache kumtumia ujumbe wakati wowote.
+            </li>
+            <li
+              data-en="We never sell or share guest details for advertising. Read our &lt;a href='privacy.html'&gt;privacy policy&lt;/a&gt;."
+            >
+              Hatuuzi wala kutoa taarifa za wageni kwa matangazo. Soma <a href="privacy.html">sera yetu ya faragha</a>.
+            </li>
           </ul>
         </div>
       </section>
@@ -251,9 +416,11 @@
       <section class="contact" id="contact">
         <div class="wrap">
           <div class="section-head">
-            <p class="eyebrow">Contact · Wasiliana nasi</p>
-            <h2>Planning an event? Let's talk.</h2>
-            <p>Tell us your date and roughly how many guests, and we will send you a quote.</p>
+            <p class="eyebrow" data-en="Contact us">Wasiliana nasi</p>
+            <h2 data-en="Planning an event? Let's talk.">Una tukio? Tuongee.</h2>
+            <p data-en="Tell us your date and roughly how many guests, and we will send you a quote.">
+              Tuambie tarehe na takriban idadi ya wageni, tutakutumia bei.
+            </p>
           </div>
           <dl class="contact-grid">
             <div class="contact-item">
@@ -276,7 +443,7 @@
                 </svg>
               </div>
               <div>
-                <dt>Phone</dt>
+                <dt data-en="Phone">Simu</dt>
                 <dd><a href="tel:+255627404843">+255 627 404 843</a></dd>
               </div>
             </div>
@@ -288,7 +455,7 @@
                 </svg>
               </div>
               <div>
-                <dt>Email</dt>
+                <dt data-en="Email">Barua pepe</dt>
                 <dd><a href="mailto:rwegasirajackson11@gmail.com">rwegasirajackson11@gmail.com</a></dd>
               </div>
             </div>
@@ -300,14 +467,14 @@
                 </svg>
               </div>
               <div>
-                <dt>Office</dt>
-                <dd>Kaitaba Street, Kipala–Kongowe, Mwandege, Mkuranga, Pwani, Tanzania<br />P.O. Box 11007</dd>
+                <dt data-en="Office">Ofisi</dt>
+                <dd data-en="Ubungo, Dar es Salaam&lt;br /&gt;Serving all of Tanzania">Ubungo, Dar es Salaam<br />Tunahudumia Tanzania nzima</dd>
               </div>
             </div>
           </dl>
           <div class="contact-actions">
-            <a class="btn btn-primary" href="https://wa.me/255627404843">Chat with us on WhatsApp</a>
-            <a class="btn btn-ghost" href="mailto:rwegasirajackson11@gmail.com">Send an email</a>
+            <a class="btn btn-primary" href="https://wa.me/255627404843" data-en="Chat with us on WhatsApp">Ongea nasi WhatsApp</a>
+            <a class="btn btn-ghost" href="mailto:rwegasirajackson11@gmail.com" data-en="Send an email">Tuma barua pepe</a>
           </div>
         </div>
       </section>
@@ -315,13 +482,47 @@
 
     <footer>
       <div class="wrap foot">
-        <span>© 2026 JAXDIGITALS, a service of Olam Technologies · Tanzania</span>
+        <span data-en="© 2026 JAXDIGITALS, a service of Olam Technologies · Tanzania">© 2026 JAXDIGITALS, huduma ya Olam Technologies · Tanzania</span>
         <nav aria-label="Footer">
-          <a href="privacy.html">Privacy policy</a>
-          <a href="privacy.html#data-deletion">Delete my data</a>
-          <a href="#contact">Contact</a>
+          <a href="privacy.html" data-en="Privacy policy">Sera ya faragha</a>
+          <a href="privacy.html#data-deletion" data-en="Delete my data">Futa taarifa zangu</a>
+          <a href="#contact" data-en="Contact">Mawasiliano</a>
         </nav>
       </div>
     </footer>
+
+    <script>
+      // Swahili is written in the page; English sits in data-en. The choice is remembered (?lang=en also works).
+      (function () {
+        var root = document.documentElement;
+        var els = Array.prototype.slice.call(document.querySelectorAll("[data-en]"));
+        els.forEach(function (el) {
+          el.setAttribute("data-sw", el.innerHTML);
+        });
+        var buttons = Array.prototype.slice.call(document.querySelectorAll(".lang button"));
+        function setLang(lang) {
+          root.lang = lang;
+          els.forEach(function (el) {
+            el.innerHTML = el.getAttribute(lang === "en" ? "data-en" : "data-sw");
+          });
+          buttons.forEach(function (b) {
+            b.setAttribute("aria-pressed", String(b.getAttribute("data-lang") === lang));
+          });
+          try {
+            localStorage.setItem("jax-lang", lang);
+          } catch (e) {}
+        }
+        buttons.forEach(function (b) {
+          b.addEventListener("click", function () {
+            setLang(b.getAttribute("data-lang"));
+          });
+        });
+        var start = "sw";
+        try {
+          start = new URLSearchParams(location.search).get("lang") || localStorage.getItem("jax-lang") || "sw";
+        } catch (e) {}
+        if (start === "en") setLang("en");
+      })();
+    </script>
   </body>
 </html>
